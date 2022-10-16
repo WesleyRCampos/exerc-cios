@@ -1,36 +1,73 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+    
 }
-div{
+imag{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    background-color: black;
+    vertical-align: middle;
+    ali
+}
+img{
+    height: 200px;
+}
+.tela{
+    height: 0%;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    background-color: black;
+    
+}
+.botao{
     height: 50%;
     display: flex;
-    flex-direction: row;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     
+    
+}
+.informacao{
+    display:block;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
 }
 p{
     color: aliceblue;
-    margin-top: 15%;
     margin-bottom: 5%;
-    font-size: 200%;
+    font-size: 400%;
+    font-family: 'VT323', monospace;
+}
+h2{
+    color: aliceblue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 400%;
+    font-family: 'VT323', monospace;   
 }
 h1{
     border: 20px solid rgb(51, 50, 50);
     color: rgb(51, 50, 50);
-    margin: 5px;
     display: inline-block;
-    padding: 0% 2% 0% 2%;
-    font-size: 500%;
-    margin-left: 2%;
-    margin-right: 2%;
-    
+    padding: 2% 2% 2% 2%;
+    font-size: 300%;
+    margin: 2%;
+    font-family: 'Press Start 2P', cursive;
+
 }
-h1:hover{
+.ir:hover{
     border: 20px solid green;
     color: green;
+}
+.sair:hover{
+    border: 20px solid red;
+    color: red;
+
 }
 
